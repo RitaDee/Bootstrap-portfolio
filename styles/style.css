@@ -66,4 +66,13 @@
   background: url(../images/media.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.recent-work {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 135px;
+  margin-bottom: 140px;
 }/*# sourceMappingURL=style.css.map */
