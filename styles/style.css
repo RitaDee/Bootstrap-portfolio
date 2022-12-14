@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +8,7 @@
 }
 
 .nav-grey {
-  background-color: #3E3C3C;
+  background-color: #3e3c3c;
 }
 .nav-grey a {
   color: #fff;
@@ -16,4 +18,52 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
+}
+
+.intro {
+  background-color: #1c1a19;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro .row-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.intro .row-content p,
+.intro .row-content h2 {
+  color: #fff;
+}
+.intro .row-content h1 {
+  color: #f55800;
+  max-width: 9ch;
+  word-wrap: line-break;
+}
+.intro .row-content .col {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.intro .row-content .col ul li {
+  -webkit-margin-after: 15px;
+          margin-block-end: 15px;
+}
+.intro .row-content .vector-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro .row-content .vector-1 div:first-child {
+  max-width: 566px;
+}
+.intro .row-content .vector-1 div:last-child {
+  width: 100%;
+  height: 100%;
+  background: url(../images/media.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }/*# sourceMappingURL=style.css.map */
