@@ -7,16 +7,125 @@
   list-style-type: none;
 }
 
+footer {
+  border-top: 1px solid gray;
+  text-align: center;
+
+  ul {
+    li {
+      a {
+        text-decoration: none;
+      }
+
+      display: inline;
+    }
+  }
+}
+
 .nav-grey {
   background-color: #3e3c3c;
+
   a {
     color: #fff;
   }
+
   .nav-text {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 100%;
+  }
+}
+
+.about-me {
+  background-color: #1c1a19;
+  color: #fff;
+  padding-block: 10%;
+
+  h2 {
+    color: #f55800;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  button {
+    background-color: #f55800;
+    color: white;
+  }
+
+  .col-7 {
+    background-image: url(../images/about-me-img.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+
+  hr {
+    margin-block: 130px;
+  }
+
+  span {
+    margin-inline-end: 5px;
+  }
+}
+
+.contact {
+  padding-block: 10%;
+
+  p {
+    font-size: 40px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 0;
+  }
+}
+
+.project-card {
+  .card {
+    min-height: 400px;
+
+    li {
+      display: inline;
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    #see-project {
+      background-image: url(../images/profession-1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .data-card {
+      background-image: url(../images/profession-2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .web-portfolio {
+      background-image: url(../images/profession-3.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .professional-art {
+      background-image: url(../images/profession-1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   }
 }
 
@@ -26,10 +135,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   .row-content {
     width: 100%;
     height: 100%;
     display: flex;
+
     p,
     h2 {
       color: #fff;
@@ -41,17 +152,19 @@
       word-wrap: line-break;
     }
 
-    .col{
-        display:flex;
-        flex-direction:row;
-        justify-content: center;
-        align-items: center;
-        ul {
-                li {
-                    margin-block-end: 15px;
-                }
-            }
+    .col {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      ul {
+        li {
+          margin-block-end: 15px;
+        }
+      }
     }
+
     .vector-1 {
       display: flex;
       flex-direction: row;
@@ -74,19 +187,21 @@
 }
 
 .recent-work {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 135px;
-    margin-bottom: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 135px;
+  margin-bottom: 140px;
 }
 
 .multi {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
+.btn-orange {
+  background-color: #f55800;
+  color: white;
+}
