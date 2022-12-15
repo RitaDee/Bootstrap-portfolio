@@ -9,19 +9,385 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous">
-    </script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <title>Bootstrap Portfolio</title>
   </head>
 
   <body>
-
-
+    <!-- header section -->
+    <nav class="navbar navbar-expand-lg nav-grey">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">John Doe</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav-text">
+            <a class="nav-link active" aria-current="page" href="#"
+              >Portfolio</a
+            >
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#"
+              ><img src="./images/msg.png" alt="notification"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="container-fluid intro">
+      <div class="row-content">
+        <div class="col ">
+          <ul>
+            <li>
+              <a href="">
+                <img src="./images/Icon -GitHub.svg" alt="GitHub" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/Icon - Linkedin.svg" alt="Linkedin" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/Icon - Angelist.svg" alt="Angelist" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/Icon - Twitter.png" alt="Twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/Icon - Medium.svg" alt="Medium" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-10 vector-1 ">
+          <div>
+            <h1>Hey There. I’m Alex</h1>
+            <h2>I’am a Software Developer</h2>
+            <p>
+              I can help you build a product , feature or website Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don’t hestiate to contact me.
+            </p>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid  my-4 ">
+      <div class="row">
+        <div class="col-2 text-center ">
+          <h3>My Recent Works</h3>
+        </div>
+        <div class="col-10 ">
+          <hr/>
+        </div>
+      </div>
+    </section>
     
+    <section class="container-fluid my-4">
+      <div class="row">
+        <div class="col-3 ">
+          <img class="themes img img-responsive" src="./images/Img Placeholder.png" alt="Placeholder" />
+        </div>
+        <div class="multi-post col-9 px-0 ">
+          <h4>Multi-Post Stories</h4>
+          <p>
+            A daily selection of privately personalized<br />
+            reads; no accounts or sign-ups required.<br />
+            has been the industry's standard dummy<br />
+            text ever since the 1500s, when an<br />
+            unknown printer took a standard dummy<br />
+            text.
+          </p>
+        </div>
+      </div>
+      
+    </section>
+    
+    <section class="container-fluid project-card my-4 text-white">
+      <div class="row mx-auto g-5">
+        <div class="col-4 ">
+          <div class="card" style="width: 18rem">
+            <div class="card-body" id="see-project">
+              <a href="#" class="btn btn-orange btn-block">See project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 ">
+          <div class="card" style="width: 18rem">
+            <div class="card-body data-card">
+              <h5 class="card-title">Data Dashboard Healthcare</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul>
+                <li>
+                  <span class="badge bg-secondary p-2">html</span>
+                </li>
+                <li>
+                  <span class="badge bg-secondary p-2">Bootstrap</span>
+                </li>
+                <li>
+                  <span class="badge bg-secondary p-2">Rooby</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 ">
+          <div class="card" style="width: 18rem">
+            <div class="card-body web-portfolio">
+              <h5 class="card-title">Website Protfolio</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul>
+                <li>
+                  <span class="badge bg-secondary p-2">html</span>
+                </li>
+                <li>
+                  <span class="badge bg-secondary p-2">Bootstrap</span>
+                </li>
+                <li>
+                  <span class="badge bg-secondary p-2">Rooby</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 ">
+          <div class="card" style="width: 18rem">
+            <div class="card-body professional-art">
+              <h5 class="card-title">Profesional Art Printing Data More</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul>
+                <li>
+                  <span class="badge bg-secondary p-2">html</span>
+                </li>
+                <li>
+                  <span class="badge bg-secondary p-2">Bootstrap</span>
+                </li>
+                <li>
+                  <span class="badge bg-secondary p-2">Rooby</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 ">
+          <div class="card" style="width: 18rem">
+            <div class="card-body data-card" id="data-dash">
+              <h5 class="card-title">Data Dashboard Healthcare</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul>
+                <li>
+                  <span class="badge bg-secondary p-2">html</span>
+                </li>
+                <li>
+                  <span class="badge bg-secondary p-2">Bootstrap</span>
+                </li>
+                <li>
+                  <span class="badge bg-secondary p-2">Rooby</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 ">
+          <div class="card" style="width: 18rem">
+            <div class="card-body web-portfolio">
+              <h5 class="card-title">Website Protfolio</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul>
+                <li>
+                  <span class="badge bg-secondary p-2">html</span>
+                </li>
+                <li>
+                  <span class="badge bg-secondary p-2">Bootstrap</span>
+                </li>
+                <li>
+                  <span class="badge bg-secondary p-2">Rooby</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About me section -->
+    <section class="container-fluid about-me">
+      <div class="row">
+        <div class="col-5 px-5 ">
+          <h2>About me</h2>
+          <p>
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <button class="btn btn-orange">Get My Resume</button>
+        </div>
+        <div class="col-7"></div>
+      </div>
+      <hr />
+      <div class="row mx-auto px-5">
+        <div class="col-4 px-5 ">
+          <h4>
+            <span
+              ><img
+                class="img img-responsive"
+                src="./images/Rectangle 55.png" /></span
+            >Language
+          </h4>
+          <ul>
+            <li>Javascript</li>
+            <li>Ruby</li>
+            <li>Html</li>
+            <li>Css</li>
+          </ul>
+        </div>
+        <div class="col-4 ">
+          <h4>
+            <span
+              ><img
+                class="img img-responsive"
+                src="./images/Rectangle 56.png" /></span
+            >Language
+          </h4>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Ruby on Rails</li>
+            <li>Rspec</li>
+            <li>Capybara</li>
+            <li>Selenium</li>
+          </ul>
+        </div>
+        <div class="col-4 ">
+          <h4>
+            <span
+              ><img
+                class="img img-responsive"
+                src="./images/Rectangle 57.png" /></span
+            >Language
+          </h4>
+          <ul>
+            <li>Codekit</li>
+            <li>Github</li>
+            <li>Codepen</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="container-fluid contact">
+      <div class="row">
+        <div class="col-4 mx-auto px-5 ">
+          <p>
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </p>
+        </div>
+        <div class="col-8 mx-auto px-5 ">
+          <form action="">
+            <div class="mb-3">
+              <label for="name" class="form-label visually-hidden">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label visually-hidden"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label visually-hidden"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="name"
+                placeholder="Hello mariane. Glad to see you!"
+              ></textarea>
+            </div>
+            <input type="submit" class="btn btn-orange" value="Get In touch" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="py-2">
+      <ul>
+        <li>
+          <a href="">
+            <img src="./images/Icon -GitHub.svg" alt="GitHub" />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./images/Icon - Linkedin.svg" alt="Linkedin" />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./images/Icon - Angelist.svg" alt="Angelist" />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./images/Icon - Twitter.png" alt="Twitter" />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./images/Icon - Medium.svg" alt="Medium" />
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
